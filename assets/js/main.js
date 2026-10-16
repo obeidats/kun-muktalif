@@ -14,6 +14,7 @@
     "nav.about": "About",
     "nav.services": "Services",
     "nav.work": "Work",
+    "nav.videos": "Videos",
     "nav.results": "Results",
     "nav.pricing": "Pricing",
     "nav.contact": "Contact",
@@ -82,6 +83,15 @@
     "work.logos": "Logos",
     "work.more": "Show more",
     "work.less": "Show less",
+
+    "videos.tag": "Our filming",
+    "videos.title": "Places we filmed… see the result yourself",
+    "videos.sub": "Reels we shot and edited on location for our clients, ready to publish on social media.",
+    "videos.watch": "Watch on Facebook",
+    "videos.cta": "Want a video like these for your place?",
+    "v1": "Kitchen showroom",
+    "v2": "Hall & restaurant",
+    "v3": "Art gallery",
 
     "results.tag": "Campaign results",
     "results.title": "Small budgets, real numbers",
@@ -371,6 +381,33 @@
   if (clientsTrack) {
     var logos = LOGOS.map(function (src) { return '<img src="' + src + '" alt="" width="64" height="64" loading="lazy">'; }).join("");
     clientsTrack.innerHTML = logos + logos;
+  }
+
+  /* ---------- Facebook reels (loaded when near the viewport) ---------- */
+  function loadReel(frame) {
+    if (frame.getAttribute("data-loaded")) return;
+    frame.setAttribute("data-loaded", "1");
+    var w = Math.max(240, Math.min(500, Math.round(frame.clientWidth || 300)));
+    var href = encodeURIComponent("https://www.facebook.com/reel/" + frame.getAttribute("data-reel"));
+    var iframe = document.createElement("iframe");
+    iframe.src = "https://www.facebook.com/plugins/video.php?href=" + href + "&show_text=false&width=" + w;
+    iframe.title = "Facebook reel";
+    iframe.setAttribute("allow", "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.setAttribute("scrolling", "no");
+    iframe.addEventListener("load", function () { frame.classList.add("ready"); });
+    frame.appendChild(iframe);
+  }
+  var reelFrames = document.querySelectorAll("[data-reel]");
+  if ("IntersectionObserver" in window) {
+    var reelObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { loadReel(en.target); reelObs.unobserve(en.target); }
+      });
+    }, { rootMargin: "300px 0px" });
+    reelFrames.forEach(function (f) { reelObs.observe(f); });
+  } else {
+    reelFrames.forEach(loadReel);
   }
 
   /* ---------- Header: scroll state, mobile menu, active link ---------- */
