@@ -5,6 +5,7 @@
   "use strict";
 
   var WA_NUMBER = "962785158652";
+  var EMAIL = "abujaad89@gmail.com";
 
   /* ---------- English translations (Arabic lives in the HTML) ---------- */
   var EN = {
@@ -12,222 +13,252 @@
     "logoAlt": "Be Different logo",
     "nav.about": "About",
     "nav.services": "Services",
-    "nav.work": "Our Work",
+    "nav.work": "Work",
     "nav.results": "Results",
-    "nav.pricing": "Packages",
+    "nav.pricing": "Pricing",
     "nav.contact": "Contact",
-    "cta.start": "Start Your Project",
-    "cta.work": "See Our Work",
-    "cta.choose": "Order This Package",
-    "cta.book": "Book Your Session",
+    "cta.talk": "Let’s talk",
+    "cta.start": "Start your project",
+    "cta.work": "View our work",
+    "cta.choose": "Choose plan",
+    "cta.book": "Book a session",
 
-    "hero.eyebrow": "Advertising & social media marketing specialists",
-    "hero.title": "Design is your brand’s <span class=\"hl\">silent ambassador</span>",
-    "hero.lead": "We build a professional digital presence for your brand that combines creativity, quality content, powerful design and thoughtful marketing… because your digital presence deserves to be seen differently.",
-    "stats.since": "Year founded",
-    "stats.works": "Designs & logos in our portfolio",
-    "stats.services": "Integrated services",
+    "hero.kicker": "Digital marketing agency · Irbid, Jordan",
+    "hero.title": "Your brand deserves to be <em>seen differently</em>",
+    "hero.lead": "We run your social media from idea to results: visual identity, daily content and design, reels, and well-planned ad campaigns that reach the right audience.",
+    "hero.chip": "Lowest cost per click we achieved",
+    "facts.imp": "Ad impressions for our clients",
+    "facts.works": "Designs & logos delivered",
+    "facts.services": "Services under one roof",
 
-    "about.tag": "About Us",
-    "about.title": "Paving the road to success together <span class=\"hl\">with a standout marketing plan</span>",
-    "about.p1": "Be Different was launched on <strong>January 13, 2024</strong> with a clear vision: to help projects and companies build a professional and diverse digital presence.",
-    "about.p2": "We manage and develop social media pages in a way that combines creativity, content quality, design power and thoughtful marketing, helping our clients reach their audiences more professionally and effectively.",
-    "about.p3": "At Be Different, we believe the success of any brand starts with a clear identity, strong content, and a marketing strategy that knows how to reach the right audience.",
-    "about.k1": "Creativity",
-    "about.k1d": "Fresh ideas that set your brand apart.",
-    "about.k2": "Design Power",
-    "about.k2d": "Professional designs that reflect your identity.",
-    "about.k3": "Strong Content",
-    "about.k3d": "Thoughtful content that attracts and convinces.",
-    "about.k4": "Smart Marketing",
-    "about.k4d": "Precise targeting that reaches the right people.",
+    "clients.title": "Brands we designed identities for",
 
-    "services.tag": "Our Services",
-    "services.title": "Integrated solutions <span class=\"hl\">for your digital presence</span>",
-    "services.sub": "From visual identity to ad campaigns — everything your brand needs, in one place.",
-    "s1.t": "Content Design",
-    "s1.d": "Professional designs tailored to your business identity, highlighting your products and services in an attractive and distinctive way.",
-    "s2.t": "Logo & Visual Identity",
-    "s2.d": "We create a visual identity that expresses your project and gives it a professional presence that is easy to remember.",
-    "s3.t": "Reels Videos",
-    "s3.d": "Short, modern videos made for social platforms, with ideas that grab attention and boost engagement.",
-    "s4.t": "Professional Montage",
-    "s4.d": "Editing and directing videos in a professional style suited to ads, products, services and marketing content.",
-    "s5.t": "Ad Campaign Management",
-    "s5.d": "Preparing and managing ad campaigns and targeting the right audience to get the most out of your budget.",
-    "s6.t": "Professional Photo Shoots",
-    "s6.d": "Photographing products, services, locations and projects to produce professional visuals that reflect the quality of your business.",
-    "s7.t": "Page Setup & Configuration",
-    "s7.d": "Preparing and organizing your pages professionally to suit your activity and improve content visibility according to platform requirements and algorithms.",
-    "s8.t": "Social Media Management",
-    "s8.d": "End-to-end content management, publishing, follow-up and development to build a continuous, professional digital presence.",
+    "about.tag": "About us",
+    "about.title": "Every successful brand starts with a clear identity, strong content, and marketing that knows where it’s going.",
+    "about.p1": "Be Different was founded on January 13, 2024 with a clear vision: to help businesses and companies build a professional, diverse digital presence.",
+    "about.p2": "We manage and grow social media pages by combining creativity, content quality, strong design and thoughtful marketing — and we set up every page to suit the business and the requirements and algorithms of each platform.",
+    "about.f1k": "Founded",
+    "about.f1v": "January 2024",
+    "about.f2k": "Based in",
+    "about.f2v": "Irbid, Jordan",
+    "about.f3k": "We serve",
+    "about.f3v": "Restaurants, real estate, furniture, beauty, retail and companies",
 
-    "process.tag": "How We Work",
-    "process.title": "Your next step to success <span class=\"hl\">starts by rising</span>",
-    "p1.t": "We get to know you",
-    "p1.d": "We understand your business, audience and goals before any design.",
-    "p2.t": "We build identity & plan",
-    "p2.d": "A clear visual identity and a content plan built for each platform.",
-    "p3.t": "We design, produce & publish",
-    "p3.d": "Daily designs, reels, montage and photography — with consistent quality.",
-    "p4.t": "We promote & track results",
-    "p4.d": "Targeted campaigns on a smart budget, with continuous performance tracking.",
+    "services.tag": "Services",
+    "services.title": "Everything your brand needs, in one place",
+    "services.sub": "One team handles identity, content, production and ads, so your message stays consistent on every platform.",
+    "s1.t": "Content design",
+    "s1.d": "Designs tailored to your brand that present your products and services in an attractive, distinctive way.",
+    "s2.t": "Logo & visual identity",
+    "s2.d": "A visual identity that expresses your business and gives it a professional, memorable presence.",
+    "s3.t": "Reels",
+    "s3.d": "Short, modern videos with ideas that grab attention and drive engagement.",
+    "s4.t": "Professional editing",
+    "s4.d": "Video editing and direction for ads, products and marketing content.",
+    "s5.t": "Ad campaign management",
+    "s5.d": "Campaign setup and audience targeting to get the most from your budget.",
+    "s6.t": "Photo shoots",
+    "s6.d": "Photography of products, services, locations and projects that reflects the quality of your work.",
+    "s7.t": "Page setup",
+    "s7.d": "Organizing your pages to suit your business and improve reach under each platform’s algorithm.",
+    "s8.t": "Social media management",
+    "s8.d": "End-to-end content, publishing, monitoring and growth for a consistent digital presence.",
 
-    "work.tag": "Our Work",
-    "work.title": "Every design has a story… <span class=\"hl\">and we’re here to tell it our way</span>",
-    "work.sub": "A selection of 3D logos and social media designs we created for our clients.",
-    "work.designs": "Social Media Designs",
-    "work.logos": "3D Logos",
-    "work.more": "Show More",
-    "work.less": "Show Less",
+    "process.tag": "How we work",
+    "process.title": "From the first call to the first results",
+    "p1.t": "Understand your business",
+    "p1.d": "We learn your business, audience and goals before any design.",
+    "p2.t": "Build identity & plan",
+    "p2.d": "A clear visual identity and a content plan tailored to each platform.",
+    "p3.t": "Produce & publish",
+    "p3.d": "Designs, reels, editing and photography with consistent quality and a clear schedule.",
+    "p4.t": "Promote & measure",
+    "p4.d": "Targeted campaigns on a smart budget, with ongoing performance tracking.",
 
-    "results.tag": "Ad Results",
-    "results.title": "Advertising isn’t just a button… <span class=\"hl\">see the results</span>",
-    "results.sub": "Small budgets, satisfying results — real snapshots from the performance dashboards of campaigns we ran for our clients.",
+    "work.tag": "Work",
+    "work.title": "Selected work",
+    "work.designs": "Social media designs",
+    "work.logos": "Logos",
+    "work.more": "Show more",
+    "work.less": "Show less",
 
-    "pricing.tag": "Packages & Pricing",
-    "pricing.title": "Choose the package <span class=\"hl\">that fits your brand</span>",
-    "pricing.sub": "The longer the package, the more you save. All prices are in Jordanian Dinars (JOD).",
-    "pricing.popular": "Most Popular",
-    "pricing.best": "Best Value",
+    "results.tag": "Campaign results",
+    "results.title": "Small budgets, real numbers",
+    "results.sub": "A summary of 12 paid campaigns we ran for clients on Meta platforms, as reported in their dashboards.",
+    "results.note": "* Amounts in USD as shown in Meta Ads Manager. Total reach is the sum of each campaign’s reach.",
+    "k.imp": "Impressions",
+    "k.reach": "Total reach",
+    "k.msg": "Messaging conversations",
+    "k.clicks": "Link clicks",
+    "k.spend": "Total ad spend",
+
+    "pricing.tag": "Pricing",
+    "pricing.title": "Clear pricing, no surprises",
+    "pricing.sub": "Every plan includes visual identity, a logo and page management. The longer the plan, the more you save. Prices in Jordanian dinars.",
+    "pricing.popular": "Most popular",
     "jd": "JOD",
-    "pk1.name": "Monthly Package",
-    "pk1.per": "per month",
-    "pk2.name": "3-Month Package",
-    "pk2.per": "(90 JOD / month)",
-    "pk3.name": "6-Month Package",
-    "pk3.per": "(85 JOD / month)",
-    "pk4.name": "Yearly Package",
-    "pk4.per": "(80 JOD / month)",
-    "f.identity": "Visual identity design",
-    "f.logo": "Custom logo for your business",
-    "f.cover": "Cover image for your page",
-    "f.manage": "Page management service",
-    "f.montage": "Montage videos",
-    "f.designs": "Designs:",
-    "f.reels": "Reels videos:",
-    "f.exec": "Execution of requested designs",
+    "perMonth": "/ month",
+    "pk1.name": "Monthly",
+    "pk1.desc": "To get started and try us out",
+    "pk1.total": "Billed monthly",
+    "pk2.name": "3 months",
+    "pk2.desc": "To build a steady presence",
+    "pk2.total": "270 JOD total",
+    "pk2.save": "Save 30",
+    "pk3.name": "6 months",
+    "pk3.desc": "For steady growth and results",
+    "pk3.total": "510 JOD total",
+    "pk3.save": "Save 90",
+    "pk4.name": "Yearly",
+    "pk4.desc": "Best value and a daily presence",
+    "pk4.total": "960 JOD total",
+    "pk4.save": "Save 240",
     "pk1.designs": "15 designs",
-    "pk1.reels": "2 videos",
+    "pk1.reels": "2 reels",
     "pk2.designs": "45 designs",
-    "pk2.reels": "6 videos",
+    "pk2.reels": "6 reels",
     "pk3.designs": "90 designs",
-    "pk3.reels": "12 videos",
-    "pk4.designs": "every other day",
-    "pk4.reels": "2 per month",
-    "pk2.save": "Save 30 JOD",
-    "pk3.save": "Save 90 JOD",
-    "pk4.save": "Save 240 JOD",
+    "pk3.reels": "12 reels",
+    "pk4.designs": "A design every other day",
+    "pk4.reels": "2 reels per month",
+    "f.monthly": "per month",
+    "f.base": "Visual identity + logo + cover image",
+    "f.manage": "Page management & edited videos",
+    "f.exec": "Execution of requested designs",
 
-    "photo.tag": "Stand out with us",
-    "photo.title": "Professional Photo Sessions",
-    "photo.f1": "Professional photography",
+    "photo.tag": "Standalone service",
+    "photo.title": "Professional photo session",
+    "photo.sub": "Two hours of shooting at your location, with content ready to publish.",
     "photo.f2": "2-hour shoot",
     "photo.f3": "Photos + videos",
     "photo.f4": "5 reels clips",
     "photo.f5": "30 professional photos",
-    "photo.f6": "Professionally edited montage video",
+    "photo.f6": "Professionally edited video",
     "photo.f7": "Voice-over about your business (on request)",
-    "photo.only": "Only",
-    "photo.per": "per session",
+    "photo.per": "/ session",
 
-    "band.title": "Don’t stop here! <span class=\"hl\">Excellence awaits you at the top</span>",
-    "band.cta": "Chat with us on WhatsApp",
+    "band.title": "Ready to be different?",
+    "band.sub": "Tell us about your business and we’ll suggest the right plan within one working day.",
+    "band.cta": "Message us on WhatsApp",
+    "band.call": "Call us",
 
-    "contact.tag": "Contact Us",
-    "contact.title": "Come closer… <span class=\"hl\">excellence is within your reach</span>",
-    "contact.main": "Main line",
+    "contact.tag": "Contact",
+    "contact.title": "We’re one click away",
+    "contact.sub": "Tap any number to call or message on WhatsApp, or the email address to send us a message.",
+    "contact.main": "Main line · WhatsApp",
     "contact.design": "Design department",
     "contact.sales": "Sales department",
     "contact.email": "Email",
     "contact.fb": "Facebook",
     "contact.fbv": "Be Different for Website Management",
-    "contact.addrT": "Our location",
+    "act.call": "Call",
+    "act.wa": "WhatsApp",
+    "act.mail": "Send email",
+    "act.copy": "Copy",
+    "act.fb": "Visit page",
+    "contact.addrT": "Address",
     "contact.addr": "Irbid – Al-Hosn Street, opposite Tariq Clothes, City Center Buildings, 3rd floor",
-    "contact.directions": "Get directions →",
+    "contact.directions": "Get directions",
     "contact.hoursT": "Working hours",
-    "contact.days": "Sunday – Thursday",
-    "contact.time": "8:00 AM – 4:00 PM",
-    "contact.weekend": "Friday – Saturday",
+    "contact.days": "Saturday – Thursday",
+    "contact.time": "9:00 AM – 4:00 PM",
+    "contact.weekend": "Friday",
     "contact.closed": "Closed",
 
-    "footer.tag": "Be Different • where your digital vision comes true",
+    "footer.tag": "Design is your brand’s silent ambassador.",
+    "footer.nav": "Links",
+    "footer.contact": "Contact",
     "footer.rights": "Be Different for Website Management. All rights reserved."
   };
 
   /* Strings used only from JS */
   var UI = {
     ar: {
-      open: "مفتوح الآن",
-      closedToday: "مغلق الآن — نفتح اليوم الساعة 8 صباحاً",
-      closedTomorrow: "مغلق الآن — نفتح غداً الساعة 8 صباحاً",
-      closedSunday: "مغلق الآن — نفتح يوم الأحد الساعة 8 صباحاً",
+      open: "مفتوح الآن · حتى 4 مساءً",
+      closedToday: "مغلق الآن · نفتح اليوم 9 صباحاً",
+      closedTomorrow: "مغلق الآن · نفتح غداً 9 صباحاً",
+      closedSaturday: "مغلق الآن · نفتح السبت 9 صباحاً",
       title: "كن مختلف | لإدارة المواقع الإلكترونية والتسويق الرقمي - إربد",
       mapTitle: "خريطة موقع كن مختلف",
       designAlt: "تصميم سوشال ميديا من أعمال كن مختلف",
-      logoAlt: "شعار ثلاثي الأبعاد من أعمال كن مختلف",
-      resultAlt: "نتيجة حملة ممولة من إدارة كن مختلف",
+      logoAlt: "شعار من تصميم كن مختلف",
+      copied: "تم نسخ البريد الإلكتروني",
+      mailSubject: "استفسار من الموقع",
+      less: "عرض أقل",
+      obj: { clicks: "نقرات على الرابط", messages: "محادثات واتساب/ماسنجر", follows: "متابعات وإعجابات", engagement: "تفاعل مع المنشور" },
+      objShort: { clicks: "زيارات", messages: "رسائل", follows: "متابعين", engagement: "تفاعل" },
+      spent: "الإنفاق",
+      cpr: "تكلفة النتيجة",
+      reach: "الوصول",
+      imp: "الظهور",
       wa: {
         general: "مرحباً كن مختلف، أود الاستفسار عن خدماتكم.",
         pk1: "مرحباً، أود الاشتراك في الباقة الشهرية (100 دينار).",
         pk2: "مرحباً، أود الاشتراك في باقة 3 أشهر (270 دينار).",
         pk3: "مرحباً، أود الاشتراك في باقة 6 أشهر (510 دينار).",
-        pk4: "مرحباً، أود الاشتراك في باقة السنة (960 دينار).",
+        pk4: "مرحباً، أود الاشتراك في الباقة السنوية (960 دينار).",
         photo: "مرحباً، أود حجز جلسة تصوير احترافية (100 دينار)."
-      },
-      slogans: [
-        "التصميم سفيرك الصامت لعلامتك التجارية",
-        "خطوتك التالية نحو النجاح تبدأ بالصعود",
-        "اكتشف كيف نميز علامتك التجارية",
-        "نحو آفاق أوسع • خدمات مبتكرة • ونتائج ملموسة",
-        "أنت الآن في قلب التغيير والتطوير الرقمي",
-        "ابدأ اليوم بخطوة نحو نجاح لا ينسى",
-        "حقق رؤيتك الرقمية مع فريقنا المحترف",
-        "ابتكار مستمر وخدمات متطورة تجعلك مختلفاً دوماً",
-        "ارتقِ بأعمالك لأعلى المستويات"
-      ]
+      }
     },
     en: {
-      open: "Open now",
-      closedToday: "Closed now — opens today at 8 AM",
-      closedTomorrow: "Closed now — opens tomorrow at 8 AM",
-      closedSunday: "Closed now — opens Sunday at 8 AM",
+      open: "Open now · until 4 PM",
+      closedToday: "Closed now · opens today at 9 AM",
+      closedTomorrow: "Closed now · opens tomorrow at 9 AM",
+      closedSaturday: "Closed now · opens Saturday at 9 AM",
       title: "Be Different | Social Media Management & Digital Marketing - Irbid",
       mapTitle: "Be Different location map",
       designAlt: "Social media design by Be Different",
-      logoAlt: "3D logo designed by Be Different",
-      resultAlt: "Paid campaign result managed by Be Different",
+      logoAlt: "Logo designed by Be Different",
+      copied: "Email address copied",
+      mailSubject: "Website inquiry",
+      less: "Show less",
+      obj: { clicks: "Link clicks", messages: "Messaging conversations", follows: "Follows & likes", engagement: "Post engagements" },
+      objShort: { clicks: "Traffic", messages: "Messages", follows: "Followers", engagement: "Engagement" },
+      spent: "Spent",
+      cpr: "Cost / result",
+      reach: "Reach",
+      imp: "Impressions",
       wa: {
         general: "Hello Be Different, I'd like to ask about your services.",
-        pk1: "Hello, I'd like to subscribe to the Monthly Package (100 JOD).",
-        pk2: "Hello, I'd like to subscribe to the 3-Month Package (270 JOD).",
-        pk3: "Hello, I'd like to subscribe to the 6-Month Package (510 JOD).",
-        pk4: "Hello, I'd like to subscribe to the Yearly Package (960 JOD).",
+        pk1: "Hello, I'd like to subscribe to the Monthly plan (100 JOD).",
+        pk2: "Hello, I'd like to subscribe to the 3-month plan (270 JOD).",
+        pk3: "Hello, I'd like to subscribe to the 6-month plan (510 JOD).",
+        pk4: "Hello, I'd like to subscribe to the Yearly plan (960 JOD).",
         photo: "Hello, I'd like to book a professional photo session (100 JOD)."
-      },
-      slogans: [
-        "Design is your brand’s silent ambassador",
-        "Your next step to success starts by rising",
-        "Discover how we make your brand stand out",
-        "Wider horizons • Innovative services • Tangible results",
-        "You’re at the heart of digital change",
-        "Start today with a step toward unforgettable success",
-        "Achieve your digital vision with our professional team",
-        "Continuous innovation that keeps you different",
-        "Take your business to the highest level"
-      ]
+      }
     }
   };
 
-  /* ---------- Portfolio data ---------- */
+  /* ---------- Data ---------- */
+  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+
   var DESIGNS = [];
   for (var d = 1; d <= 54; d++) { if (d !== 39) DESIGNS.push("assets/img/work/designs/design-" + pad(d) + ".webp"); }
   var LOGOS = [];
   for (var l = 1; l <= 18; l++) LOGOS.push("assets/img/work/logos/logo-" + pad(l) + ".webp");
-  var RESULTS = [];
-  for (var r = 2; r <= 13; r++) RESULTS.push("assets/img/results/result-" + pad(r) + ".webp");
 
-  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+  // Hero wall: three columns of strong portfolio pieces
+  var WALL = [[4, 14, 30, 46, 25], [11, 28, 33, 44, 18], [54, 2, 41, 21, 36]];
+
+  // Paid campaign results read from the client dashboards (USD)
+  var CAMPAIGNS = [
+    { obj: "engagement", result: 1525, spend: 29.93, reach: 12919, imp: 21837 },
+    { obj: "clicks",     result: 372,  spend: 24.98, reach: 13430, imp: 35453 },
+    { obj: "messages",   result: 294,  spend: 24.98, reach: 12719, imp: 26841 },
+    { obj: "messages",   result: 254,  spend: 49.98, reach: 18986, imp: 44365 },
+    { obj: "clicks",     result: 316,  spend: 3.58,  reach: 2112,  imp: 3105 },
+    { obj: "engagement", result: 420,  spend: 3.68,  reach: 1414,  imp: 2117 },
+    { obj: "clicks",     result: 137,  spend: 7.60,  reach: 17209, imp: 18431 },
+    { obj: "follows",    result: 150,  spend: 19.83, reach: 5863,  imp: 12931 },
+    { obj: "messages",   result: 118,  spend: 18.29, reach: 9119,  imp: 16265 },
+    { obj: "follows",    result: 115,  spend: 14.85, reach: 3158,  imp: 5347 },
+    { obj: "follows",    result: 60,   spend: 9.96,  reach: 3193,  imp: 4892 },
+    { obj: "messages",   result: 27,   spend: 10.00, reach: 2185,  imp: 3918 }
+  ];
+
+  var fmt = function (n) { return n.toLocaleString("en-US"); };
+  var money = function (n) { return "$" + n.toFixed(n < 0.1 ? 3 : 2); };
+  var compact = function (n) { return n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "K" : String(n); };
 
   /* ---------- i18n ---------- */
   var html = document.documentElement;
@@ -247,13 +278,13 @@
       var v = t(el.getAttribute("data-i18n"));
       if (v) el.innerHTML = v;
     });
-    altNodes.forEach(function (el) { el.alt = lang === "en" ? EN[el.getAttribute("data-i18n-alt")] : "شعار كن مختلف"; });
+    altNodes.forEach(function (el) { el.alt = lang === "en" ? EN.logoAlt : "شعار كن مختلف"; });
     document.title = UI[lang].title;
     var map = document.querySelector(".map-wrap iframe");
     if (map) map.title = UI[lang].mapTitle;
     document.getElementById("langToggle").textContent = lang === "en" ? "عربي" : "EN";
     updateWaLinks();
-    buildMarquee();
+    renderCampaigns();
     updateOpenStatus();
     refreshGalleryAlts();
     updateMoreLabel();
@@ -264,30 +295,73 @@
     applyLang(lang === "en" ? "ar" : "en");
   });
 
-  /* ---------- WhatsApp links with prefilled messages ---------- */
+  /* ---------- WhatsApp, email and copy actions ---------- */
   function updateWaLinks() {
     document.querySelectorAll("[data-wa]").forEach(function (a) {
       var msg = UI[lang].wa[a.getAttribute("data-wa")] || UI[lang].wa.general;
-      a.href = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg);
+      var num = a.getAttribute("data-wa-num") || WA_NUMBER;
+      a.href = "https://wa.me/" + num + "?text=" + encodeURIComponent(msg);
+    });
+    document.querySelectorAll("[data-mail]").forEach(function (a) {
+      a.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent(UI[lang].mailSubject);
     });
   }
 
-  /* ---------- Marquee ---------- */
-  function buildMarquee() {
-    var track = document.getElementById("marqueeTrack");
-    if (!track) return;
-    var items = UI[lang].slogans.map(function (s) { return "<span>" + s + "</span>"; }).join("");
-    track.innerHTML = items + items; // duplicated for a seamless loop
+  // On desktops without a mail app, mailto: often does nothing — open Gmail's compose page instead.
+  var isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("[data-mail]");
+    if (!a || isMobile) return;
+    e.preventDefault();
+    var url = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(EMAIL) + "&su=" + encodeURIComponent(UI[lang].mailSubject);
+    var w = window.open(url, "_blank", "noopener");
+    if (!w) location.href = a.href; // popup blocked: fall back to the mail app
+  });
+
+  var toast = document.getElementById("toast");
+  var toastTimer;
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toast.classList.remove("show"); }, 2200);
+  }
+  document.querySelectorAll("[data-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var text = btn.getAttribute("data-copy");
+      var done = function () { showToast(UI[lang].copied); };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(done, function () { fallbackCopy(text); done(); });
+      } else { fallbackCopy(text); done(); }
+    });
+  });
+  function fallbackCopy(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); } catch (e) { /* ignore */ }
+    document.body.removeChild(ta);
+  }
+
+  /* ---------- Hero wall & clients strip ---------- */
+  WALL.forEach(function (ids, c) {
+    var col = document.querySelector('[data-wall="' + c + '"]');
+    if (!col) return;
+    var imgs = ids.map(function (id, i) {
+      return '<img src="assets/img/work/designs/design-' + pad(id) + '.webp" alt="" width="512" height="512"' + (i > 1 ? ' loading="lazy"' : "") + ">";
+    }).join("");
+    col.innerHTML = imgs + imgs; // duplicated for a seamless loop
+  });
+
+  var clientsTrack = document.getElementById("clientsTrack");
+  if (clientsTrack) {
+    var logos = LOGOS.map(function (src) { return '<img src="' + src + '" alt="" width="64" height="64" loading="lazy">'; }).join("");
+    clientsTrack.innerHTML = logos + logos;
   }
 
   /* ---------- Header: scroll state, mobile menu, active link ---------- */
   var header = document.querySelector(".site-header");
-  var toTop = document.getElementById("toTop");
-  function onScroll() {
-    var y = window.scrollY;
-    header.classList.toggle("scrolled", y > 30);
-    toTop.classList.toggle("show", y > 700);
-  }
+  function onScroll() { header.classList.toggle("scrolled", window.scrollY > 20); }
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 
@@ -318,30 +392,75 @@
     entries.forEach(function (en) {
       if (en.isIntersecting) { en.target.classList.add("in"); revealObs.unobserve(en.target); }
     });
-  }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }) : null;
-  document.querySelectorAll(".reveal").forEach(function (el, i) {
-    if (!revealObs) { el.classList.add("in"); return; }
-    el.style.transitionDelay = (i % 4) * 80 + "ms";
-    revealObs.observe(el);
-  });
+  }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }) : null;
+  function observeReveal(root) {
+    (root || document).querySelectorAll(".reveal:not(.in)").forEach(function (el, i) {
+      if (!revealObs) { el.classList.add("in"); return; }
+      el.style.transitionDelay = (i % 4) * 70 + "ms";
+      revealObs.observe(el);
+    });
+  }
+  observeReveal();
+
+  /* ---------- KPI count-up ---------- */
+  var counters = document.querySelectorAll("[data-count]");
+  var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !reduced) {
+    var cntObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        cntObs.unobserve(en.target);
+        var el = en.target, target = +el.getAttribute("data-count"), start = null;
+        function step(ts) {
+          if (!start) start = ts;
+          var p = Math.min(1, (ts - start) / 1400);
+          el.textContent = fmt(Math.round(target * (1 - Math.pow(1 - p, 3))));
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(function (c) { cntObs.observe(c); });
+  }
+
+  /* ---------- Campaign cards ---------- */
+  var maxReach = Math.max.apply(null, CAMPAIGNS.map(function (c) { return c.reach; }));
+  function renderCampaigns() {
+    var box = document.getElementById("campaigns");
+    if (!box) return;
+    var u = UI[lang];
+    box.innerHTML = CAMPAIGNS.map(function (c) {
+      return '<article class="camp">' +
+        '<div class="camp-top"><span class="chip ' + c.obj + '">' + u.objShort[c.obj] + '</span>' +
+        '<span class="camp-spend">' + u.spent + ' <bdi>$' + c.spend.toFixed(2) + "</bdi></span></div>" +
+        '<div class="camp-result"><strong dir="ltr">' + fmt(c.result) + "</strong><span>" + u.obj[c.obj] + "</span></div>" +
+        '<div class="camp-meta">' +
+          '<div><b dir="ltr">' + money(c.spend / c.result) + "</b><small>" + u.cpr + "</small></div>" +
+          '<div><b dir="ltr">' + compact(c.reach) + "</b><small>" + u.reach + "</small></div>" +
+          '<div><b dir="ltr">' + compact(c.imp) + "</b><small>" + u.imp + "</small></div>" +
+        "</div>" +
+        '<div class="bar" aria-hidden="true"><i style="width:' + Math.max(6, Math.round(c.reach / maxReach * 100)) + '%"></i></div>' +
+        "</article>";
+    }).join("");
+  }
 
   /* ---------- Portfolio gallery ---------- */
   var gallery = document.getElementById("gallery");
   var moreBtn = document.getElementById("loadMore");
   var currentSet = "designs";
-  var STEP = { designs: 12, logos: 12 };
+  var STEP = 12;
   var shown = 0;
 
-  function setList() { return currentSet === "logos" ? LOGOS : DESIGNS; }
-  function altFor(set) { return set === "logos" ? UI[lang].logoAlt : set === "results" ? UI[lang].resultAlt : UI[lang].designAlt; }
+  function setList(set) { return (set || currentSet) === "logos" ? LOGOS : DESIGNS; }
+  function altFor(set) { return set === "logos" ? UI[lang].logoAlt : UI[lang].designAlt; }
 
-  function makeItem(src, idx, set, cls) {
+  function makeItem(src, idx, set) {
     var b = document.createElement("button");
     b.type = "button";
-    b.className = cls;
+    b.className = "g-item";
     b.setAttribute("data-idx", idx);
     b.setAttribute("data-set", set);
-    b.innerHTML = '<img src="' + src + '" alt="' + altFor(set) + " " + (idx + 1) + '" loading="lazy" decoding="async" width="512" height="512"><span class="zoom" aria-hidden="true">+</span>';
+    b.innerHTML = '<img src="' + src + '" alt="' + altFor(set) + " " + (idx + 1) + '" loading="lazy" decoding="async" width="512" height="512">';
     b.addEventListener("click", function () { openLightbox(set, idx); });
     return b;
   }
@@ -350,9 +469,9 @@
     var list = setList();
     if (reset) { gallery.innerHTML = ""; shown = 0; }
     gallery.classList.toggle("logos", currentSet === "logos");
-    var end = Math.min(list.length, shown + STEP[currentSet]);
+    var end = Math.min(list.length, shown + STEP);
     var frag = document.createDocumentFragment();
-    for (var i = shown; i < end; i++) frag.appendChild(makeItem(list[i], i, currentSet, "g-item"));
+    for (var i = shown; i < end; i++) frag.appendChild(makeItem(list[i], i, currentSet));
     gallery.appendChild(frag);
     shown = end;
     updateMoreLabel();
@@ -360,12 +479,12 @@
 
   function updateMoreLabel() {
     var list = setList();
-    moreBtn.style.display = list.length <= STEP[currentSet] ? "none" : "";
-    moreBtn.textContent = shown >= list.length ? (lang === "en" ? EN["work.less"] : "عرض أقل") : t("work.more");
+    moreBtn.style.display = list.length <= STEP ? "none" : "";
+    moreBtn.textContent = shown >= list.length ? UI[lang].less : t("work.more");
   }
 
   function refreshGalleryAlts() {
-    document.querySelectorAll(".g-item img, .r-item img").forEach(function (img) {
+    document.querySelectorAll(".g-item img").forEach(function (img) {
       var p = img.parentNode;
       img.alt = altFor(p.getAttribute("data-set")) + " " + (+p.getAttribute("data-idx") + 1);
     });
@@ -391,24 +510,10 @@
     });
   });
 
-  /* ---------- Results slider ---------- */
-  var track = document.getElementById("resultsTrack");
-  RESULTS.forEach(function (src, i) { track.appendChild(makeItem(src, i, "results", "r-item")); });
-  document.querySelectorAll("[data-slide]").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      var dir = +btn.getAttribute("data-slide");
-      var item = track.querySelector(".r-item");
-      var step = item ? item.getBoundingClientRect().width + 18 : 300;
-      track.scrollBy({ left: dir * step * (html.dir === "rtl" ? -1 : 1), behavior: "smooth" });
-    });
-  });
-
   /* ---------- Lightbox ---------- */
   var lb = document.getElementById("lightbox");
   var lbImg = lb.querySelector(".lb-img");
   var lbSet = "designs", lbIdx = 0, lastFocus = null;
-
-  function listFor(set) { return set === "logos" ? LOGOS : set === "results" ? RESULTS : DESIGNS; }
 
   function openLightbox(set, idx) {
     lastFocus = document.activeElement;
@@ -419,7 +524,7 @@
     lb.querySelector(".lb-close").focus();
   }
   function showLb() {
-    var list = listFor(lbSet);
+    var list = setList(lbSet);
     lbIdx = (lbIdx + list.length) % list.length;
     lbImg.src = list[lbIdx];
     lbImg.alt = altFor(lbSet) + " " + (lbIdx + 1);
@@ -440,7 +545,6 @@
     else if (e.key === "ArrowRight") { lbIdx += rtl ? -1 : 1; showLb(); }
     else if (e.key === "ArrowLeft") { lbIdx += rtl ? 1 : -1; showLb(); }
   });
-  // swipe on touch devices
   var touchX = null;
   lb.addEventListener("touchstart", function (e) { touchX = e.touches[0].clientX; }, { passive: true });
   lb.addEventListener("touchend", function (e) {
@@ -450,7 +554,7 @@
     touchX = null;
   });
 
-  /* ---------- Open / closed status (Jordan time) ---------- */
+  /* ---------- Open / closed status (Jordan time, Sat–Thu 9:00–16:00) ---------- */
   function updateOpenStatus() {
     var el = document.getElementById("openStatus");
     if (!el) return;
@@ -464,16 +568,15 @@
     } catch (e) {
       var now = new Date(); day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][now.getDay()]; hour = now.getHours();
     }
-    var workday = ["Sun", "Mon", "Tue", "Wed", "Thu"].indexOf(day) !== -1;
-    var open = workday && hour >= 8 && hour < 16;
-    el.className = "open-status " + (open ? "open" : "closed");
+    var workday = day !== "Fri";
+    var open = workday && hour >= 9 && hour < 16;
     var msg = "open";
     if (!open) {
-      if (workday && hour < 8) msg = "closedToday";
-      else if (["Sun", "Mon", "Tue", "Wed"].indexOf(day) !== -1) msg = "closedTomorrow";
-      else msg = "closedSunday"; // Thursday evening, Friday, Saturday
-      if (day === "Sat" && hour >= 16) msg = "closedTomorrow";
+      if (workday && hour < 9) msg = "closedToday";
+      else if (day === "Thu" || day === "Fri") msg = day === "Fri" ? "closedTomorrow" : "closedSaturday";
+      else msg = "closedTomorrow";
     }
+    el.className = "open-status " + (open ? "open" : "closed");
     el.textContent = UI[lang][msg];
   }
   setInterval(updateOpenStatus, 60000);
