@@ -1,0 +1,13 @@
+{
+  "name": "kun-muktalif",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Be Different (كن مختلف) - bilingual static website",
+  "scripts": {
+    "dev": "live-server --port=8000 --open=./ --ignore=node_modules",
+    "start": "live-server --port=8000 --no-browser --ignore=node_modules"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
+}

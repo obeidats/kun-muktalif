@@ -1,0 +1,14 @@
+{
+  "name": "كن مختلف لإدارة المواقع الإلكترونية",
+  "short_name": "كن مختلف",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050d18",
+  "theme_color": "#06111f",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
