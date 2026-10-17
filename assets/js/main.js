@@ -44,7 +44,7 @@
     "about.f2k": "Based in",
     "about.f2v": "Irbid, Jordan",
     "about.f3k": "We serve",
-    "about.f3v": "Restaurants, real estate, furniture, beauty, retail and companies",
+    "about.f3v": "Restaurants, real estate, furniture, beauty, pharmacies & clinics, retail and companies",
 
     "services.tag": "Services",
     "services.title": "Everything your brand needs, in one place",
@@ -92,6 +92,7 @@
     "v1": "Kitchen showroom",
     "v2": "Hall & restaurant",
     "v3": "Art gallery",
+    "v4": "Model photo shoot",
 
     "results.tag": "Campaign results",
     "results.title": "Small budgets, real numbers",
