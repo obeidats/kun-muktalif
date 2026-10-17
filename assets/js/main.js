@@ -27,6 +27,7 @@
     "hero.kicker": "Digital marketing agency · Irbid, Jordan",
     "hero.title": "Your brand deserves to be <em>seen differently</em>",
     "hero.lead": "We run your social media from idea to results: visual identity, daily content and design, reels, and well-planned ad campaigns that reach the right audience.",
+    "hero.chip": "Lowest cost per click we achieved",
     "facts.imp": "Ad impressions for our clients",
     "facts.works": "Designs & logos delivered",
     "facts.services": "Services under one roof",
@@ -261,6 +262,9 @@
   var LOGOS = [];
   for (var l = 1; l <= 18; l++) LOGOS.push("assets/img/work/logos/logo-" + pad(l) + ".webp");
 
+  // Hero wall: three columns of strong portfolio pieces
+  var WALL = [[4, 14, 30, 46, 25], [11, 28, 33, 44, 18], [54, 2, 41, 21, 36]];
+
   // Paid campaign results read from the client dashboards (USD)
   var CAMPAIGNS = [
     { obj: "engagement", result: 1525, spend: 29.93, reach: 12919, imp: 21837 },
@@ -364,7 +368,16 @@
     document.body.removeChild(ta);
   }
 
-  /* ---------- Clients strip ---------- */
+  /* ---------- Hero wall & clients strip ---------- */
+  WALL.forEach(function (ids, c) {
+    var col = document.querySelector('[data-wall="' + c + '"]');
+    if (!col) return;
+    var imgs = ids.map(function (id, i) {
+      return '<img src="assets/img/work/designs/design-' + pad(id) + '.webp" alt="" width="512" height="512"' + (i > 1 ? ' loading="lazy"' : "") + ">";
+    }).join("");
+    col.innerHTML = imgs + imgs; // duplicated for a seamless loop
+  });
+
   var clientsTrack = document.getElementById("clientsTrack");
   if (clientsTrack) {
     var logos = LOGOS.map(function (src) { return '<img src="' + src + '" alt="" width="64" height="64" loading="lazy">'; }).join("");
