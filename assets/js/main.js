@@ -27,7 +27,6 @@
     "hero.kicker": "Digital marketing agency · Irbid, Jordan",
     "hero.title": "Your brand deserves to be <em>seen differently</em>",
     "hero.lead": "We run your social media from idea to results: visual identity, daily content and design, reels, and well-planned ad campaigns that reach the right audience.",
-    "hero.chip": "Lowest cost per click we achieved",
     "facts.imp": "Ad impressions for our clients",
     "facts.works": "Designs & logos delivered",
     "facts.services": "Services under one roof",
